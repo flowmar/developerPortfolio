@@ -9,3 +9,12 @@ body.loaded {
 footer {
     color: black;
 }
+
+a {
+    color: slategrey;
+    text-shadow: .04rem .03rem .13rem black;
+}
+
+a:hover {
+    text-shadow: .04rem .03rem .13rem white;
+}
