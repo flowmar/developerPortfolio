@@ -45,7 +45,7 @@ h2:after {
   width: 50%;
 }
 
-h1:before {
+h2:before {
   content: attr(data-heading);
   position: absolute;
   left: 0;
