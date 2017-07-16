@@ -1,7 +1,8 @@
 html,
 body {
   height: 100%;
-  background: #1a5c9a;
+  /* background: #1a5c9a; */
+  background: black;
   font-family: 'Oswald', sans-serif;
 }
 
