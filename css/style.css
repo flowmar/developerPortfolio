@@ -1,18 +1,32 @@
 #flow {
     font-size: 2.3rem;
     font-family: "Pacifico";
+    text-shadow: .1rem .1rem .08rem whitesmoke;
+    ;
+    ;
 }
 
 #first {
     font-family: "Press Start 2P";
+    text-shadow: .2rem .2rem .2rem green;
 }
 
 #toy {
     font-family: "Shadows Into Light Two";
     font-size: 3rem;
+    text-shadow: -2px 2px 1.6px red;
 }
 
 footer {
     text-align: center;
-    text-shadow: .02rem .02rem .03rem purple;
+}
+
+.connect {
+    text-shadow: .06rem .07rem .17rem whitesmoke;
+}
+
+small {
+    font-family: "Quicksand";
+    font-weight: bolder;
+    font-size: .8rem;
 }
