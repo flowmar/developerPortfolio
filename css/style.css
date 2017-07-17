@@ -1,7 +1,13 @@
-html {
-    margin: 0;
-    overflow: auto;
+html,
+body {
+    margin: none;
+    overflow: none;
     text-shadow: .06rem .07rem .13rem lightskyblue;
+}
+
+body {
+    margin: 0;
+    ;
 }
 
 #intro {

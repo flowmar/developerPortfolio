@@ -3,6 +3,14 @@ html {
     text-align: center;
 }
 
+body.loaded {
+    background-color: slategrey;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+}
+
 .jumbotron-fluid {
     font-size: 2rem;
     font-family: "Press Start 2P";
