@@ -106,3 +106,15 @@ body.loaded {
     margin-bottom: -3px;
     margin-top: 3px;
 }
+
+.codebtnword {
+    color: darkgreen;
+}
+
+.flowbtnword {
+    color: darkblue;
+}
+
+.contactbtnword {
+    color: #e65100;
+}

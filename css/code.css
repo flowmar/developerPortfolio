@@ -11,13 +11,13 @@ body.loaded {
     transition: all 3s ease-in-out;
 }
 
-.jumbotron-fluid {
+#upper {
     font-size: 2rem;
     font-family: "Press Start 2P";
     text-shadow: .1rem .1rem .1rem green;
 }
 
-.jumbotron {
+#connect {
     background: black;
     margin: auto;
     text-align: center;
