@@ -1,0 +1,8 @@
+{
+  "name": "developer-profile",
+  "description": "This is my professional portfolio.",
+  "dependencies": {
+    "mdbootstrap": "4.3.2"
+  },
+  "version": "0.0.0"
+}
