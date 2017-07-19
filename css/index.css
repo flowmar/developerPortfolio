@@ -118,3 +118,11 @@ body.loaded {
 .contactbtnword {
     color: #e65100;
 }
+
+.navbar-tablet {
+    font-size: 50rem;
+}
+
+.moveFlow {
+    /* position: fixed; */
+}
