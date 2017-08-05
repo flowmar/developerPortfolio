@@ -3,6 +3,14 @@ html {
     text-align: center;
 }
 
+body {
+    color: white;
+}
+
+.btn a {
+    color: whitesmoke;
+}
+
 body.loaded {
     background-color: slategrey;
     -webkit-transition: all 3s ease-in-out;

@@ -10,6 +10,12 @@ footer {
     color: black;
 }
 
+.footer {
+    margin-top: -1.3rem;
+    padding: .09rem;
+    background-color: rgba(0, 0, 0, .15);
+}
+
 a {
     color: slategrey;
     text-shadow: .04rem .03rem .13rem black;
@@ -17,4 +23,9 @@ a {
 
 a:hover {
     text-shadow: .04rem .03rem .13rem white;
+}
+
+.navbar {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, .15);
 }
