@@ -2,7 +2,7 @@ html,
 body {
     margin: none;
     overflow: none;
-    text-shadow: .06rem .07rem .13rem lightskyblue;
+    text-shadow: .04rem .04rem .08rem lightskyblue;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 footer {
-    * text-align: center;
+    text-align: center;
 }
 
 .connect {
@@ -43,8 +43,8 @@ footer {
 small {
     font-family: "Oswald";
     font-weight: bolder;
-    font-size: .8rem;
-    text-shadow: .04rem .03rem .04rem white;
+    font-size: 1rem;
+    text-shadow: .03rem .03rem .02rem white;
 }
 
 

@@ -8,3 +8,12 @@ form {
     text-shadow: none;
     margin-left: 1vw;
 }
+
+p {
+    text-shadow: none;
+}
+
+footer i {
+    color: #00dd00;
+    text-shadow: .03rem .04rem .01rem whitesmoke;
+}
