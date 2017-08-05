@@ -37,14 +37,14 @@ footer {
 }
 
 .connect {
-    text-shadow: .06rem .07rem .17rem whitesmoke;
+    text-shadow: .06rem .07rem .12rem whitesmoke;
 }
 
 small {
     font-family: "Oswald";
     font-weight: bolder;
     font-size: 1rem;
-    text-shadow: .03rem .03rem .02rem white;
+    text-shadow: .03rem .02rem .01rem whitesmoke;
 }
 
 
