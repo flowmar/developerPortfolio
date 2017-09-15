@@ -1,148 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Omar's Portfolio</title>
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Press+Start+2P|Pacifico|Shadows+Into+Light+Two" rel="stylesheet">
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-        <link href="css/bootstrap.css" rel="stylesheet">
+<head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">`
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Omar's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Press+Start+2P|Pacifico|Shadows+Into+Light+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-        <!-- Material Design Bootstrap -->
-        <link href="css/mdb.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/rainbow.css">
-        <link rel="stylesheet" href="css/index.css">
-    </head>
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/rainbow.css">
+    <link rel="stylesheet" href="css/index.css">
 
-    <body>
-        <!-- Navigation -->
-        <div class="container text-center">
-            <nav class="navbar navbar-nav">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNav">
-                    <i class="fa fa-navicon fa-2x"></i>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar animated slideInDown justify-content-center col z-depth-3" role="navigation">
+        <span class="navbtn"><button type="button" class="navbar-toggle bg-dark z-depth-3" data-toggle="collapse" data-target="#theNav">
+                        <i class="fa fa-navicon fa-2x text-white"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="theNav">
-                    <ul class="navbar-right nav navbar-nav animated">
-                        <li class="active nav-item animated slideInLeft"><a href="index.html" class="btn btn-inverse nav-link">Home</a></li>
-                        <li class="nav-item animated slideInUp"><a href="code.html " class="btn btn-inverse nav-link">Code</a></li>
-                        <li class="nav-item animated slideInRight"><a href="flow.html" class="btn btn-inverse nav-link">Flow</a></li>
-                        <li class="nav-item animated slideInDown"><a href="contact.html " class="btn btn-inverse nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+        </span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="collapse navbar-collapse" id="theNav">
+            <ul class="navbar-nav animated tada text-center nav-list">
+                <li class="list-inline-item nav-item animated slideInLeft mb-1">
+                    <a href="./index.html" class="active disabled btn btn-mdb btn-block btn-lg nav-link">
+                            Home
+                        </a>
+                </li>
+                <li class="list-inline-item nav-item animated slideInUp mb-1">
+                    <a href="./code.html" class="btn btn-block btn-default nav-link">
+                            Code
+                        </a>
+                </li>
+                <li class="list-inline-item nav-item animated slideInRight mb-1">
+                    <a href="./flow.html" class="btn btn-inverse btn-block btn-indigo nav-link">
+                            Flow
+                        </a>
+                </li>
+                <li class="list-inline-item nav-item animated slideInDown">
+                    <a href="./contact.html" class="btn btn-inverse btn-block btn-light-green nav-link">
+                            Contact
+                        </a>
+                </li>
+            </ul>
         </div>
-        <hr>
+    </nav>
+    <hr>
 
-        <!-- Main -->
-        <div class="container">
+    <!-- Main -->
+    <main>
+        <div class="container-fluid">
             <div class="animated slideInUp jumbotron-fluid">
                 <div class="text-right">
-                    <h2 class="animated rollIn mb-2 text-info">Hi, my name is</h2>
-                    <br><br><br>
-                    <h1 class="animated lightSpeedIn" id="intro" data-heading="Omar.">
+                    <h2 class="animated rollIn mb-2 text-info font-weight-bold">
+                        Hi, my name is
+                    </h2>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 title="That's my name!" class="animated lightSpeedIn" id="intro" data-heading="Omar.">
                         <span data-heading="Omar." class="animated
                     tada text-center">Omar.</span></h1>
                 </div>
             </div>
         </div>
         <br>
-        <div class="container">
+        <br>
+        <br>
+        <div class="container-fluid">
             <div class="row">
-                <h4 class="animated flipInX col-xs-4 text-success pull-right" id="first">I am a full-stack developer,</h4>
+                <h4 class="animated rollIn col-xs-4 text-success pull-right" id="first" title="Pancake stacks!">I am a full-stack developer,</h4>
             </div>
             <br><br>
-            <div class="row pull-right">
-                <div class="text-warning mr-1 animated slideInRight" id="flow">a flow artist,</div>
+            <div class="row pull-right mr-1">
+                <div class="text-warning mr-1 animated slideInRight" id="flow" title="I Love Hoops <3">a flow artist,</div>
             </div>
             <br><br><br><br>
             <div class="row pull-left text-left">
-                <div class="text-danger animated rollIn ml-5" id="toy">
-                    and a flow propsmith.
+                <div class="text-danger animated rollIn col-12" id="toy" title="Shameless Self-Promotion">and a flow propsmith.
                 </div>
             </div>
         </div>
-        <br><br>
-
-        <div class="row text-center">
-            <div class="col-xs-12">
-                <a href="code.html">
-                    <button type="button" class="btn btn-success btn-default light-green accent-4 raised round animated bounceInLeft">
-                        <span class="codebtnword">Code</span>
-                    </button>
-                    </a>
-                <a href="flow.html">
-                <button type="button" class="btn btn-primary raised round light-blue accent-2 animated bounceInRight">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <p title="This is a tooltip, bruh.">
+                Hover Over Me
+            </p>
+        </section>
+        <section>
+            <!-- Link Butons to other pages -->
+            <div class="container-fluid text-center justify-content-center">
+                <ul class="col list-inline">
+                    <li class="list-inline-item">
+                        <a href="./code.html" role="button" class="btn btn-success btn-default btn-lg light-green accent-4 raised round animated bounceInLeft" id="code-link">
+                            <span class="codebtnword">Code</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="./flow.html">
+                            <button type="button" class="btn btn-primary raised round light-blue accent-2 btn-lg animated bounceInRight">
                     <span class="flowbtnword">
                         Flow
                     </span>
                 </button>
-                </a>
-                <br>
-                <a href="contact.html">
-                <button type="button" class="btn btn-warning raised round amber accent-4 animated bounceInDown">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="./contact.html">
+                            <button type="button" class="btn btn-warning btn-lg raised round amber accent-4 animated bounceInDown">
                     <span class="contactbtnword">
                         Contact
                     </span>
                 </button>
-                </a>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <hr>
-
-        <!-- Footer -->
-        <div class="container text-center">
-            <div class="row">
-                <footer class="jumbotron-fluid col-xs-11">
-                    <small>Connect With Me</small>
-                    <br>
-                    <ul class="connect list-inline">
-                        <li>
-                            <a href="https://github.com/flowmar">
+        </section>
+    </main>
+    <!-- Footer -->
+    <div class="container-fluid z-depth-3">
+        <div class="row card animated flipInX" style="background-color: transparent;">
+            <footer class="jumbotron-fluid col-12">
+                <small>Connect With Me</small>
+                <br>
+                <ul class="connect list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/flowmar" title="Github">
                             <i class="fa fa-github fa-4x" aria-hidden="true"></i>
                         </a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/flowmar">
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://linkedin.com/in/flowmar" title="LinkedIn">
                             <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
                         </a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/kineticvortexflow">
-                        <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://instagram.com/kineticvortexflow" title="Instagram">
+                            <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
                         </a>
-                        </li>
-                        <li>
-                            <a href="https://kineticvortexflow.com">
-                                <i class="fa fa-circle-o-notch fa-4x" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="copy col-xs-12">
-                        ©Omar Imam 2017
-                    </div>
-                </footer>
-            </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://kineticvortexflow.com" title="Kinetic Vortex Flow">
+                            <i class="fa fa-circle-o-notch fa-4x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="copy col-xs-12">
+                    ©Omar Imam 2017
+                </div>
+            </footer>
         </div>
-        <!-- SCRIPTS -->
-        <!-- JQuery -->
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript" src="js/tether.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-        <!-- MDB core JavaScript -->
-        <script src="js/mdb.min.js"></script>
-        <script src="js/portfolio.js"></script>
-        <script src="js/index.js">
-        </script>
-    </body>
+    </div>
+    <!-- SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/index.js">
+    </script>
+</body>
 
 </html>

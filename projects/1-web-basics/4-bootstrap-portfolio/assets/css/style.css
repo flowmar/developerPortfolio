@@ -1,0 +1,173 @@
+/*************************************************************************************************/
+/*Main Structure*/
+/*************************************************************************************************/
+html {
+	background-color: silver;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	}
+
+body {
+	background: black;
+}
+
+p {
+text-indent: 10px;
+}
+
+/*************************************************************************************************/
+/*Navigation*/
+/*************************************************************************************************/
+.name{
+	margin: auto;
+	padding-left: 1%;
+	vertical-align: middle;
+}
+
+.navbar-nav {
+	text-decoration: none;
+}
+
+.nav-item {
+	float: left;
+}
+
+/*************************************************************************************************/
+/*Main Page Content*/
+/*************************************************************************************************/
+
+.main {
+	background-image: url('../images/background1.jpg');
+	background-size: contain;
+	margin: auto;
+	width: 100%;
+}
+
+/*************************************************************************************************/
+/*Home*/
+/*************************************************************************************************/
+.profile-picture {
+	border-radius: 29%;
+	border-style: hidden;
+	border-width: 5px;
+	float: left;
+	height: 40%;
+	padding: 10px;
+	width: 25%;
+}
+
+.home-content {
+	background: rgb(156, 22, 14);
+	background: rgba(156, 22, 14, .5);
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 3px;
+	float: none;
+	margin: 1% 0 1% 1%;
+}
+
+/*************************************************************************************************/
+/*Portfolio*/
+/*************************************************************************************************/
+.portfolio-content {
+	background: rgb(157, 24, 42);
+	background: rgba(157, 24, 42, .5);
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 2px;
+	float: none;
+	margin: 1% 0 1% 1%;
+	padding: 1%;
+}
+
+/*************************************************************************************************/
+/*Contact*/
+/*************************************************************************************************/
+.contact-content {
+	background: rgb(36, 16 74);
+	background: rgba(36, 16, 74, .5);
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 2px;
+	float: none;
+	margin: 1% 0 1% 1%;
+	padding: 1%;
+}
+
+form {
+	width: 100%;
+}
+
+/*************************************************************************************************/
+/*Connect*/
+/*************************************************************************************************/
+.connect {
+	background: rgb(64, 78, 98);
+	background: rgba(64, 78, 98, .5);
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 2px;
+	float: right;
+	margin: 1% 1% 0 1%;
+}
+
+.fa-github-square {
+	color: black;
+}
+
+.fa-linkedin-square {
+	color: rgb(0,119, 181);
+
+}
+
+.fa-stack-overflow {
+	color: orange;
+}
+
+/*************************************************************************************************/
+/*Footer*/
+/*************************************************************************************************/
+.line {
+	background-color: teal;
+	color: teal;
+	width: 100%;
+}
+
+footer {
+	background-color: #666666;
+	display: inline;
+	font-size: 10px;
+	padding: 25px;
+	text-align: center;
+}
+
+/*************************************************************************************************/
+/*Miscellaneous*/
+/*************************************************************************************************/
+.wrapper {
+		width: 100%;
+	}
+
+.gallery-left {
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+}
+
+.gallery-right {
+	border-color: black;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 1px;
+	float: right;
+}

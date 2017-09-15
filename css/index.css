@@ -1,8 +1,6 @@
 body.loaded {
     background-color: #040404;
     -webkit-transition: all 3s ease-in-out;
-    -moz-transition: all 3s ease-in-out;
-    -o-transition: all 3s ease-in-out;
     transition: all 3s ease-in-out;
     margin: 0;
 }
@@ -19,6 +17,10 @@ body.loaded {
 .btn:active:focus,
 .btn.active:focus {
     outline: 0 none;
+}
+
+.disabled:hover {
+    border: white solid 1px;
 }
 
 
@@ -48,60 +50,70 @@ body.loaded {
 ******************************************************/
 
 .btn-primary.raised {
-    box-shadow: 0 3px 0 0 #00695C;
+    -webkit-box-shadow: 0 3px 0 0 #00695c;
+    box-shadow: 0 3px 0 0 #00695c;
 }
 
 .btn-primary.raised:active,
 .btn-primary.raised.active {
-    background: #00695C;
+    background: #00695c;
+    -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
 }
 
 .btn-success.raised {
+    -webkit-box-shadow: 0 3px 0 0 #008c52;
     box-shadow: 0 3px 0 0 #008c52;
 }
 
 .btn-success.raised:active,
 .btn-success.raised.active {
     background: #39bf87;
+    -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
 }
 
 .btn-info.raised {
+    -webkit-box-shadow: 0 3px 0 0 #35a2b5;
     box-shadow: 0 3px 0 0 #35a2b5;
 }
 
 .btn-info.raised:active,
 .btn-info.raised.active {
     background: #5fd4e8;
+    -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
 }
 
 .btn-warning.raised {
+    -webkit-box-shadow: 0 3px 0 0 #b87430;
     box-shadow: 0 3px 0 0 #b87430;
 }
 
 .btn-warning.raised:active,
 .btn-warning.raised.active {
     background: #eba259;
+    -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
 }
 
 .btn-danger.raised {
+    -webkit-box-shadow: 0 3px 0 0 #bf4343;
     box-shadow: 0 3px 0 0 #bf4343;
 }
 
 .btn-danger.raised:active,
 .btn-danger.raised.active {
     background: #f26d6d;
+    -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
@@ -119,10 +131,65 @@ body.loaded {
     color: #e65100;
 }
 
-.navbar-tablet {
-    font-size: 50rem;
-}
-
 .moveFlow {
     /* position: fixed; */
 }
+
+.copy {
+    font-family: 'Oswald';
+}
+
+small {
+    font-family: 'Oswald';
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #dad3d3;
+    /* text-shadow: 0.03rem 0.02rem 0.01rem whitesmoke; */
+}
+
+
+/* .hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+} */
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576 px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 645 px) {
+    #intro {}
+    #first {
+        margin-top: auto;
+        padding-top: 10%;
+        display: inline;
+    }
+    #flow {
+        float: left !important;
+    }
+}
+
+@media (min-width: 768 px) {
+    .navbtn {
+        /* visibility: hidden; */
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992 px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200 px) {}
